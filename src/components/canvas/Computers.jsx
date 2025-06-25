@@ -5,23 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("../../../public/desktop_pc/scene.gltf");
-
-  useEffect(() => {
-    if (computer.scene) {
-      computer.scene.traverse((child) => {
-        if (child.isMesh) {
-          const pos = child.geometry.attributes.position.array;
-          for (let i = 0; i < pos.length; i++) {
-            if (isNaN(pos[i])) {
-              console.error("NaN value in geometry at index", i);
-            }
-          }
-        }
-      });
-    }
-  }, [computer]);
-
+  const computer = useGLTF("/desktop_pc/scene.gltf");
 
   return (
     <mesh>

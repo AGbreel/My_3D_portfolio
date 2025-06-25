@@ -111,7 +111,7 @@ const projects = [
     { name: "framer-motion", color: "pink-text-gradient" }
   ],
   image: MyPortfolio,
-  source_code_link: "https://github.com/AGbreel/your-portfolio-repo"
+  source_code_link: "https://github.com/AGbreel/My_3D_portfolio"
 }
 ,
 
