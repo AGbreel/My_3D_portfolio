@@ -69,7 +69,7 @@ const About = () => {
           variants={fadeIn("right", "spring", 0.2, 1)}
           className="flex-shrink-0"
         >
-          <img src={logo} alt="Logo" className="w-72 h-72 object-contain" />
+          <img src={logo} alt="Logo" className="w-80 h-80 object-contain" />
         </motion.div>
       </div>
 

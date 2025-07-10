@@ -152,7 +152,7 @@ const Contact = () => {
           </button>
         </form>
 
-        <img src={logo} alt="Logo" className='mt-10 w-52 h-52 object-contain mx-auto' />
+        <img src={logo} alt="Logo" className='mt-10 w-60 h-60 object-contain mx-auto' />
       </motion.div>
 
       <motion.div
